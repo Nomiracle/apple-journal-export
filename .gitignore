@@ -1,0 +1,22 @@
+# ── 导出产物（含完整个人日记，切勿提交）──────────────────────
+journal-export/
+out/
+
+# 手记数据库快照（万一在仓库目录里操作过）
+moments.sqlite
+moments.sqlite-wal
+moments.sqlite-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.rtf
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
